@@ -1,10 +1,12 @@
+const asset = (path) => `${import.meta.env.BASE_URL}${path}`
+
 export const team = [
   {
     number: '01',
     name: 'Keyvan Rezaei',
     initials: 'KR',
     role: 'Front-End Engineer',
-    photo: '/images/image.png',
+    photo: asset('images/image.png'),
     intro:
       'Currently working at BluBank. Previously worked at Namava, Quera, and TashilCar, gaining experience across fintech, video streaming, education, and automotive platforms.',
     skills: [
@@ -30,7 +32,7 @@ export const team = [
         title: 'Front-End Engineer',
         period: 'Feb 2026 — Present',
         location: 'Tehran, Iran',
-        logo: '/images/logos/blubank.svg',
+        logo: asset('images/logos/blubank.svg'),
         responsibilities: [
           'Contributes to a leading neo-bank providing fully digital financial services to more than 20 million users.',
         ],
@@ -40,7 +42,7 @@ export const team = [
         title: 'Front-End Engineer',
         period: 'Mar 2022 — Feb 2026',
         location: 'Tehran, Iran',
-        logo: '/images/logos/namava.png',
+        logo: asset('images/logos/namava.png'),
         responsibilities: [
           'Redesigned the UI to enhance user experience and maintain a user-friendly interface.',
           'Migrated around 85% of React class components to functional components to use new features such as hooks.',
@@ -56,7 +58,7 @@ export const team = [
         title: 'ReactJS Instructor',
         period: 'Jul 2025 — Sep 2025',
         location: 'Tehran, Iran',
-        logo: '/images/logos/quera.png',
+        logo: asset('images/logos/quera.png'),
         responsibilities: [
           'Developed hands-on learning materials with practical examples, code documentation, and performance optimization guides for React applications.',
           'Created comprehensive educational content covering React fundamentals, component composition patterns, and modern development best practices.',
@@ -68,7 +70,7 @@ export const team = [
         title: 'Front-End Developer · Part-time',
         period: 'Jan 2024 — Jun 2024',
         location: 'Tehran, Iran',
-        logo: '/images/logos/tashilcar.svg',
+        logo: asset('images/logos/tashilcar.svg'),
         responsibilities: [
           'Developed a robust React admin panel from scratch for tracking customers, transactions, and payments.',
           'Built interactive data tables with sorting, filtering, and pagination for efficient handling of large datasets.',
@@ -84,7 +86,7 @@ export const team = [
     name: 'Sahar Nosrati',
     initials: 'SN',
     role: 'Backend Developer',
-    photo: '/images/image copy 2.png',
+    photo: asset('images/image copy 2.png'),
     intro:
       'Backend developer with hands-on experience in FastAPI and Node.js, building web applications and APIs. Enjoys solving complex technical challenges and leveraging AI tools and technologies to improve productivity and software development practices.',
     skills: [
@@ -117,7 +119,7 @@ export const team = [
         title: 'Backend Developer',
         period: 'Jul 2025 — Present',
         location: 'Tehran, Iran',
-        logo: '/images/logos/zitel.png',
+        logo: asset('images/logos/zitel.png'),
         responsibilities: [
           'Develops and maintains provisioning systems to improve stability, user experience, and support business requirements.',
           'Developed and maintains a passive network monitoring tool customized for Zitel’s infrastructure.',
@@ -130,7 +132,7 @@ export const team = [
         title: 'Backend Developer',
         period: 'Jun 2025 — Jul 2025',
         location: 'Tehran, Iran',
-        logo: '/images/logos/modelic.ico',
+        logo: asset('images/logos/modelic.ico'),
         responsibilities: [
           'Refactored the existing backend codebase to improve maintainability and readability.',
           'Designed and implemented role-based access control with resource-based authorization for fine-grained security across system components.',
@@ -141,7 +143,7 @@ export const team = [
         title: 'Backend Developer',
         period: 'Nov 2023 — Jun 2025',
         location: 'Tehran, Iran',
-        logo: '/images/logos/khodran-vafa.png',
+        logo: asset('images/logos/khodran-vafa.png'),
         responsibilities: [
           'Designed and implemented the backend project from scratch, including its architecture, database structure, and core APIs.',
           'Implemented role- and permission-based user access management to ensure secure access to application features and resources.',
@@ -157,7 +159,7 @@ export const team = [
     name: 'Mehran Abdoveys',
     initials: 'MA',
     role: 'Product Designer',
-    photo: '/images/mehran-abdolveys.webp',
+    photo: asset('images/mehran-abdolveys.webp'),
     intro:
       'Currently working at Blu Bank, specializing in user-centered experiences, design systems, and end-to-end product development.',
     skills: [
@@ -183,7 +185,7 @@ export const team = [
         company: 'Blu Bank',
         title: 'Senior Product Designer',
         period: 'Mar 2024 — Present',
-        logo: '/images/logos/blubank.svg',
+        logo: asset('images/logos/blubank.svg'),
         responsibilities: [
           'Conducted extensive user research through surveys, interviews, and usability testing to gather actionable insights and inform design decisions.',
           'Designed intuitive and engaging interfaces, ensuring a seamless experience across all digital platforms.',
@@ -197,7 +199,7 @@ export const team = [
         company: 'Ayan Co.',
         title: 'Senior Product Designer',
         period: 'May 2022 — Mar 2024',
-        logo: '/images/logos/ayan.png',
+        logo: asset('images/logos/ayan.png'),
         responsibilities: [
           'Led a team in the comprehensive redesign of two key products, enhancing user experience and functionality.',
           'Developed and implemented a robust design system, promoting consistency and efficiency across company products.',
@@ -209,7 +211,7 @@ export const team = [
         company: 'Ethica Data',
         title: 'Product Designer',
         period: 'Jul 2020 — Oct 2021',
-        logo: '/images/logos/ethica.png',
+        logo: asset('images/logos/ethica.png'),
         responsibilities: [
           'Conducted comprehensive user research to gather insights and inform design decisions around user needs.',
           'Established a cohesive design system to maintain consistency and streamline the design process across the platform.',
@@ -225,7 +227,7 @@ export const team = [
     name: 'Mohamad Talei',
     initials: 'MT',
     role: 'Front-End Developer',
-    photo: '/images/image copy.png',
+    photo: asset('images/image copy.png'),
     intro:
       'Front-end developer with nearly four years of experience across early-stage and enterprise environments, with hands-on experience in both B2B and B2C products. Passionate about solving complex challenges and continuously learning new technologies.',
     skills: [
@@ -240,7 +242,7 @@ export const team = [
         company: 'Zarrino',
         title: 'Front-End Developer',
         period: 'Feb 2025 — Present',
-        logo: '/images/logos/zarrino.png',
+        logo: asset('images/logos/zarrino.png'),
         responsibilities: [
           'Collaborated closely with backend developers and design teams to deliver scalable, maintainable features for the company’s core web application.',
           'Maintained and continuously enhanced the main production platform, app.pindis.com, ensuring stability, performance, and a smooth user experience across ongoing releases.',
@@ -252,7 +254,7 @@ export const team = [
         company: 'Namava',
         title: 'Front-End Developer',
         period: 'Apr 2022 — Feb 2025',
-        logo: '/images/logos/namava.png',
+        logo: asset('images/logos/namava.png'),
         responsibilities: [
           'Collaborated with design teams to implement interactive features aligned with current trends in video-on-demand services.',
           'Developed and launched a World Cup game-prediction web application with forecasting tools, friend groups, and dynamic timetables.',
@@ -266,7 +268,7 @@ export const team = [
         title: 'Front-End Developer · Part-time',
         period: 'Jan 2024 — Jun 2024',
         location: 'Tehran, Iran',
-        logo: '/images/logos/tashilcar.svg',
+        logo: asset('images/logos/tashilcar.svg'),
         responsibilities: [
           'Developed a robust React admin panel from scratch for tracking customers, transactions, and payments.',
           'Built interactive data tables with sorting, filtering, and pagination for efficient handling of large datasets.',
