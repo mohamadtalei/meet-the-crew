@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Production builds and tooling caches
+dist/
+.vite/
+coverage/
+
+# Environment files (keep shareable templates)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local coding-agent state
+.agents/
+.codex/
